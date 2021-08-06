@@ -50,6 +50,7 @@ const Map = ({ searchResults }) => {
               onClose={() => setSelectedLocation({})}
               latitude={result.lat}
               longitude={result.long}
+              className="z-10"
             >
               {result.title}
             </Popup>
